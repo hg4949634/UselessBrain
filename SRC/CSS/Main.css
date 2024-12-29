@@ -1,0 +1,41 @@
+@import url(./common.css);
+
+body {
+  background-color: #ffebf9;
+}
+
+.hangle {
+  margin-top: 8rem;
+}
+
+.hangle p {
+  font-size: 60px;
+  color: black;
+  font-weight: 800;
+  margin: 1%;
+}
+
+.Select {
+  margin-top: 25rem;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Select_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 70px;
+  border-radius: 10px;
+  background-color: var(--soft-gray);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Select_btn:hover {
+  background-color: var(--dark-gray);
+  color: white;
+}

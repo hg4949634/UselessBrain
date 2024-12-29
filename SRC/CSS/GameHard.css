@@ -1,0 +1,138 @@
+@import url(./common.css);
+
+body {
+  background-color: #c6ecd8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: #f8fdfb;
+  border-radius: 10px;
+  width: 70%;
+  height: 150px;
+  align-items: center;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.Buttons .Btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: var(--soft-gray);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d9ccff;
+}
+
+.Btns {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Btns .Reset {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: var(--soft-gray);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Btns .Reset:hover {
+  background-color: #ff8686;
+  color: white;
+}
+
+.Btns .Submit {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: var(--soft-gray);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Btns .Submit:hover {
+  background-color: #8686ff;
+  color: white;
+}
+
+.TheUI {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  font-size: 20px;
+}
+
+.ReadyGo {
+  color: red;
+}
+
+.WhiteBoard {
+  display: flex;
+  margin-top: 1rem;
+  width: 700px;
+  height: 20px;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.Lvl {
+  display: flex;
+}
+
+.HowLvl {
+  display: flex;
+  justify-content: end;
+  width: 30px;
+}
+
+.HowDifficulty {
+  margin-right: 3rem;
+  color: #ff8686;
+}
+
+.GoBack {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--soft-gray);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.GoBack:hover {
+  background-color: #ff8686;
+  color: white;
+}
+
+.Back {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}

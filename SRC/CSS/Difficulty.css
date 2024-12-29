@@ -1,0 +1,68 @@
+body {
+  background-color: #ffebf9;
+}
+
+.Choose_Difficulty {
+  margin-left: 5rem;
+  font-weight: 400;
+  font-size: 60px;
+  color: black;
+}
+
+.DifficultyList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.Difficulty {
+  display: flex;
+  align-items: center;
+}
+
+.Difficulty_One {
+  display: flex;
+  margin-right: 1rem;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  outline: 1px solid black;
+  border-radius: 20px;
+}
+
+.Difficulty p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Difficulty_Select {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+
+.Difficulty_SelectBtn {
+  margin-top: 1rem;
+  margin-right: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Difficulty_SelectBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.DifficultyList .Selected .Difficulty_One {
+  background-color: rgb(167, 230, 255);
+}
